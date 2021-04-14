@@ -1,8 +1,7 @@
 public class Main {
   
  public static void main(String args[]) {
-   
-  System.out.println("Hello Github!"); 
-   
+  Person person = new Person("james", 20);
+  System.out.println(person.getName());
  }
 }
